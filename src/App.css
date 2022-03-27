@@ -1,0 +1,47 @@
+ #register, #login {
+  width: 300px;
+  border: 2px solid #09090a;
+  
+  padding: 0px 15px 15px 15px;
+  border-radius: 5px;
+  font-family: arial;
+  line-height: 16px;
+  color: #1f1818;
+  font-size: 14px;
+  background: #b5e3f1;
+  margin: 100px auto;
+}
+h2{
+  text-align: center;
+  font-size: 28px;
+}
+
+form label, form input {
+  display: block;
+  margin-bottom: 10px; 
+  width: 90%
+}
+
+form input {
+  padding: 10px;
+  border: solid 1px #4c6eaa;
+
+}
+
+.button {
+  background-color: #618ff3;
+  border-color: #92f0ae;
+  font-weight: bold;
+  padding: 12px 15px;
+  color: #212721;
+}
+
+.errorMsg {
+  color: #cc0000;
+  margin-bottom: 12px;
+}
+
+.sucessMsg {
+  color: #6B8E23;
+  margin-bottom: 10px;
+}
